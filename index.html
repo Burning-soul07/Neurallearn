@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NeuralLearn - AI-Powered Education Platform tailored to your learning pace." />
+  <title>NeuralLearn — AI-Powered Education Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <a href="#hero" class="nav-logo" aria-label="NeuralLearn Home">
+    <span class="logo-dot"></span>NeuralLearn
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#courses" class="nav-cta">Get Started Free</a>
+</nav>
+
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow fade-in"><span></span> AI-Powered Learning Platform</div>
+    <h1 class="hero-title fade-in delay-1">Learn Smarter,<br><em>Not Harder</em><br>with AI Guidance</h1>
+    <p class="hero-desc fade-in delay-2">NeuralLearn adapts to your pace, maps your knowledge gaps, and builds a personalized curriculum that evolves as you do — powered by advanced AI tutors available 24/7.</p>
+    <div class="hero-btns fade-in delay-3">
+      <a href="#courses" class="btn-primary">Start Learning Free →</a>
+      <a href="#about" class="btn-ghost">Explore Platform</a>
+    </div>
+    <div class="hero-stats fade-in delay-4">
+      <div><div class="stat-val">50K+</div><div class="stat-label">Active Learners</div></div>
+      <div><div class="stat-val">200+</div><div class="stat-label">AI-Curated Courses</div></div>
+      <div><div class="stat-val">94%</div><div class="stat-label">Completion Rate</div></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <svg id="neural-canvas" viewBox="0 0 520 480" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+          <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="blur"><feGaussianBlur stdDeviation="3"/></filter>
+      </defs>
+      <ellipse cx="260" cy="240" rx="200" ry="200" fill="url(#glow)" filter="url(#blur)"/>
+      <circle id="n1" cx="80" cy="120" r="10" fill="#7C3AED" opacity="0.9"><animate attributeName="r" values="10;13;10" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle id="n2" cx="80" cy="200" r="10" fill="#7C3AED" opacity="0.9"><animate attributeName="r" values="10;13;10" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle id="n3" cx="80" cy="280" r="10" fill="#7C3AED" opacity="0.9"><animate attributeName="r" values="10;13;10" dur="2s" repeatCount="indefinite"/></circle>
+      <circle id="n4" cx="80" cy="360" r="10" fill="#7C3AED" opacity="0.9"><animate attributeName="r" values="10;13;10" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="100" r="12" fill="#6D28D9" opacity="0.9"><animate attributeName="r" values="12;15;12" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="180" r="12" fill="#6D28D9" opacity="0.9"><animate attributeName="r" values="12;15;12" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="260" r="12" fill="#6D28D9" opacity="0.9"><animate attributeName="r" values="12;15;12" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="340" r="12" fill="#6D28D9" opacity="0.9"><animate attributeName="r" values="12;15;12" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="420" r="12" fill="#6D28D9" opacity="0.9"><animate attributeName="r" values="12;15;12" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="130" r="14" fill="#5B21B6" opacity="0.95"><animate attributeName="r" values="14;17;14" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="240" r="14" fill="#5B21B6" opacity="0.95"><animate attributeName="r" values="14;17;14" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="350" r="14" fill="#5B21B6" opacity="0.95"><animate attributeName="r" values="14;17;14" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="450" cy="180" r="16" fill="#C4B5FD" opacity="1"><animate attributeName="r" values="16;20;16" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="450" cy="300" r="16" fill="#C4B5FD" opacity="1"><animate attributeName="r" values="16;20;16" dur="2.6s" repeatCount="indefinite"/></circle>
+      <g stroke="rgba(124,58,237,0.2)" stroke-width="1">
+        <line x1="90" y1="120" x2="188" y2="100"/><line x1="90" y1="120" x2="188" y2="180"/>
+        <line x1="90" y1="120" x2="188" y2="260"/><line x1="90" y1="120" x2="188" y2="340"/>
+        <line x1="90" y1="200" x2="188" y2="100"/><line x1="90" y1="200" x2="188" y2="180"/>
+        <line x1="90" y1="200" x2="188" y2="260"/><line x1="90" y1="200" x2="188" y2="420"/>
+        <line x1="90" y1="280" x2="188" y2="180"/><line x1="90" y1="280" x2="188" y2="260"/>
+        <line x1="90" y1="280" x2="188" y2="340"/><line x1="90" y1="360" x2="188" y2="260"/>
+        <line x1="90" y1="360" x2="188" y2="340"/><line x1="90" y1="360" x2="188" y2="420"/>
+      </g>
+      <g stroke="rgba(124,58,237,0.25)" stroke-width="1.2">
+        <line x1="212" y1="100" x2="316" y2="130"/><line x1="212" y1="100" x2="316" y2="240"/>
+        <line x1="212" y1="180" x2="316" y2="130"/><line x1="212" y1="180" x2="316" y2="240"/>
+        <line x1="212" y1="260" x2="316" y2="240"/><line x1="212" y1="260" x2="316" y2="350"/>
+        <line x1="212" y1="340" x2="316" y2="240"/><line x1="212" y1="340" x2="316" y2="350"/>
+        <line x1="212" y1="420" x2="316" y2="350"/>
+      </g>
+      <g stroke="rgba(196,181,253,0.4)" stroke-width="1.5">
+        <line x1="344" y1="130" x2="434" y2="180"/>
+        <line x1="344" y1="240" x2="434" y2="180"/>
+        <line x1="344" y1="240" x2="434" y2="300"/>
+        <line x1="344" y1="350" x2="434" y2="300"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section id="about">
+  <span class="section-eyebrow">Our Mission</span>
+  <h2 class="section-title">Democratizing Knowledge<br>Through Artificial Intelligence</h2>
+  
+  <div class="about-grid">
+    <div class="about-content">
+      <p class="section-sub">We built NeuralLearn because traditional education often treats everyone the same. We believe learning should be as unique as your neural pathways. By integrating real-time performance tracking with responsive content, we ensure every learner progresses at their own ideal pace.</p>
+      <div class="about-mission">
+        "Our goal is to give every individual a personalized Ivy-League caliber tutor, entirely free from the limitations of time and geography."
+      </div>
+    </div>
+    <div class="about-features">
+      <div class="about-card">
+        <div class="about-card-icon">🧠</div>
+        <h4>Cognitive Mapping</h4>
+        <p>Our AI identifies your strengths and weaknesses to adjust course difficulty dynamically.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">⏱️</div>
+        <h4>Asynchronous Mastery</h4>
+        <p>No deadlines. Only move forward when you've truly mastered the foundational concepts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="courses">
+  <div class="services-header">
+    <span class="section-eyebrow">Curriculum</span>
+    <h2 class="section-title">Explore Our Offerings</h2>
+    <p class="section-sub">Informational deep-dives designed to equip you with modern skills. Browse our top learning tracks below.</p>
+  </div>
+
+  <div class="courses-grid">
+    <div class="course-card">
+      <span class="course-tag">Technology</span>
+      <h3>Machine Learning Fundamentals</h3>
+      <p>Understand the core mathematics, algorithms, and real-world applications driving today's AI revolution.</p>
+    </div>
+    <div class="course-card">
+      <span class="course-tag">Business</span>
+      <h3>Data-Driven Leadership</h3>
+      <p>Learn how to interpret complex datasets to make informed, strategic decisions for any modern organization.</p>
+    </div>
+    <div class="course-card">
+      <span class="course-tag">Design</span>
+      <h3>Human-Computer Interaction</h3>
+      <p>Study the psychology of digital interfaces, focusing on accessibility, modern UI/UX design, and user empathy.</p>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <span class="section-eyebrow">Process</span>
+  <h2 class="section-title">How NeuralLearn Works</h2>
+  
+  <div class="how-grid">
+    <div class="step-card">
+      <div class="step-num">01</div>
+      <h4>Assessment</h4>
+      <p>Take a brief, interactive quiz so our AI can gauge your baseline knowledge.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">02</div>
+      <h4>Generation</h4>
+      <p>A custom syllabus is instantly generated to target your specific learning gaps.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">03</div>
+      <h4>Engagement</h4>
+      <p>Learn through dynamic text, interactive diagrams, and AI-guided Q&A sessions.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">04</div>
+      <h4>Mastery</h4>
+      <p>Test your knowledge with practical applications until proficiency is achieved.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <span class="section-eyebrow">Get in touch</span>
+  <h2 class="section-title">Let's Connect</h2>
+  
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>We're here to help you learn.</h3>
+      <p>Have questions about our methodology, accessibility standards, or partnering with NeuralLearn? Reach out to our support team and we'll get back to you within 24 hours.</p>
+      <p><strong>Email:</strong> hello@neurallearn.edu<br>
+         <strong>Headquarters:</strong> 101 AI Innovation Way, Tech District</p>
+    </div>
+    
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required aria-label="Your Full Name" />
+      <input type="email" name="email" placeholder="Your Email Address" required aria-label="Your Email Address" />
+      <textarea name="message" placeholder="How can we help you?" required aria-label="Message content"></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#hero" class="nav-logo"><span class="logo-dot"></span>NeuralLearn</a>
+      <p>The future of education is personalized, adaptive, and accessible to everyone. Learn smarter today.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Platform</h5>
+      <ul>
+        <li><a href="#courses">Browse Courses</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Resources</h5>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Community Guidelines</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 NeuralLearn Education Platform. All rights reserved.</p>
+    <p>Designed for Accessibility & Performance.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
